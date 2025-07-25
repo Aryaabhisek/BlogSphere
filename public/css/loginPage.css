@@ -261,7 +261,8 @@ body {
 
 .illustration {
     flex: 1;
-    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)),
+                url('public/images/bg-right.png') center center/cover no-repeat;
     color: white;
     padding: 4rem;
     display: flex;
