@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+
+    {
+      "type": "tomcat",
+      "request": "launch",
+      "name": "Run BlogSphere on Tomcat",
+      "cwd": "${workspaceFolder}",
+      "tomcatPath": "D:\\TomcatServer", 
+      "port": 8080,
+      "preLaunchTask": "Maven Build",
+      "war": "${workspaceFolder}/target/BlogSphere.war",
+      "contextPath": "/BlogSphere"
+    }
+  ]
+}

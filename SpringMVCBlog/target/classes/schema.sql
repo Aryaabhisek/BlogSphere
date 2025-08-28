@@ -1,0 +1,11 @@
+-- Run this in MySQL
+CREATE DATABASE IF NOT EXISTS spring_db;
+USE spring_db;
+
+CREATE TABLE IF NOT EXISTS article (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    author VARCHAR(100),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
